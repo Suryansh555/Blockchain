@@ -1,0 +1,11 @@
+On Sept. 15, 2008, Lehman Brothers, one of the biggest investment banks in the world, filed for bankruptcy. 
+
+Before filing for bankruptcy in September 2008, Lehman Brothers was the fourth-largest investment bank in the U.S. (Goldman Sachs, Morgan Stanley and Merrill Lynch were first, second and third, respectively). It was founded in 1850 and did business for 158 years. Internationally, 25,000 people were working at Lehman Brothers at the time of its collapse. 
+
+By 2004, Lehman had acquired five mortgage lenders, including BNC Mortgage, a subprime lender. Lehman invested even more in securitized mortgages over the next few years, more so than any other firm. Lehman’s big investment in mortgage securities made it especially vulnerable as the housing market started to crash. Lehman Brothers started to correct course, but it was too late, it didn’t have the capital cushion to absorb its losses and its stock price continued to plunge. Lehman was forced to file for bankruptcy on Sept. 15, 2008. The firm held more than $600 billion in assets, and it remains the largest bankruptcy in U.S. history.      
+
+After all, the government intervened to prevent the fall of AIG immediately after, and stopped Bear Stearns’ collapse earlier in 2008. The Troubled Asset Relief Program, also known as TARP, meant to bail out more banks was signed into law in October 2008. But when Lehman failed, the Treasury Department didn’t have the authority to save it, and the Fed didn’t believe that Lehman had the collateral of Bear Stearns or AIG. Although the Fed tried to facilitate a purchase by a private business (Barclays and Bank of America considered purchasing Lehman before it declared bankruptcy), the government couldn’t guarantee its operations, either. Instead, Lehman filed for bankruptcy and was eventually broken up into pieces and purchased by other banks.  
+
+Ultimately, Lehman’s collapse affected global stock markets, the U.S. economy and how the government handled the bank bailouts. Lehman’s fall also put thousands of financial services workers out of a job. As the biggest failure in the “too big to fail” moment, Lehman epitomizes the crisis from the view of the banks and the financial sector.
+
+This lead to Blockchain(A technology to reduce the dependcy on the trusted third Party such as financial institution).
