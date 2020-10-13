@@ -1,0 +1,18 @@
+Proof of Work & Proof of Stake
+
+Proof of Work
+
+=> Proof of work is the consensus algorithm, which is used to confirm transactions. It lets miners to help confirm the transaction by giving them rewards in return.
+=> PoW is the original consensus algo by Satoshi. It is used is Bitcoin network. PoW offers miners to get it the correct nonce required for a particular block, and the miner who would get the correct nonce first would get coins in return.
+=> PoW is very slow algo because of which it takes ~10 minutes, for a block to get published.
+=> The main disadvantages are huge expenditures, “uselessness” of computations and 51 percent attack.
+
+Proof of Stake
+
+=> Proof of stake is the alternate of consensus algo of PoW.
+=> PoS protocol is that a miner should have a particular amount of coins already in the wallet, only then the person can participate in mining, otherwise not.
+=> In PoS, the miner who is eligible for participating in mining, would get their wallet with coins, freeze. That wallet would only be used in mining operations.
+=> In PoS, the eligible miner can stake any percentage of his coins for mining,and according to the stake the miner puts, the miner would get rewarded.
+=> So the person who would stake more coins, would have more chances to mine and win more coins and would have more mining power.
+For example, a miner which have 3% of bitcoins available, can mine only 3% of blocks.
+=> In this way PoS reduces energy consumption,and computational power. It also is good in preventing attacks, like 51 percent attack.
