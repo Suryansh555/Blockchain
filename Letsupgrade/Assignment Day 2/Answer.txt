@@ -1,0 +1,1 @@
+Data Density and time to mine are directly proportional , more the data is inserted more the time is take to get the perfect nonce value so that the hask key gets 4 zero at the beginning. 
