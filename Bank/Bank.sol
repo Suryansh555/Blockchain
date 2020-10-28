@@ -4,26 +4,26 @@ contract Bank{
     address owner;
     string ownername;
     string BankName;
-    uint balance ;
+    uint balance ;        // Total Balance of the bank
     int account_no ;
     bool pause;
-    
-    struct Details {
-        string  name ; 
+      
+    struct Details {     // struct containing account info
+        string  name ;   
         uint AccountBalance;
     }
     
     mapping(address => Details) Account_No;
-    mapping(address => uint) AddresstoLoan;
+    mapping(address => uint) AddresstoLoan;        // maps for maintaing ledger
     mapping(address => uint) LoanRepayment;
     mapping(int => address) AccountToAddress;
     mapping(address => bool) AccountActive;
     
-    constructor(string memory Ownername , string memory Bankname)public payable{
+    constructor(string memory Ownername , string memory Bankname)public payable{         // Deploying Bank 
         ownername = Ownername ; 
         BankName = Bankname;
         owner = msg.sender;
-        require(msg.value >= 50 ether , "You can not Setup Bank Due to Unsufficient Funds");
+        require(msg.value >= 50 ether , "You can not Setup Bank Due to Unsufficient Funds");   
         account_no = 100 ;
         AccountToAddress[account_no] = msg.sender;
         Details memory account_no = Details(Ownername,msg.value);
@@ -31,11 +31,11 @@ contract Bank{
         balance = msg.value;
 
     }
-    function Owner() public view returns(string memory){
+    function Owner() public view returns(string memory){                                        // To view name of the owner and bank name
          return string(abi.encodePacked( ownername ," is the owner of the bank " , BankName));
     }
-    function CreateAccount(string memory Name) public Ispause payable{
-        if(AccountActive[msg.sender] == false){
+    function CreateAccount(string memory Name) public Ispause payable{              // Creating new account 
+        if(AccountActive[msg.sender] == false){  // To check if Account is terminated or not
             AccountActive[msg.sender] = true;
         }
         require(Account_No[msg.sender].AccountBalance ==  0 ether  ,"Your Account has already been created");
