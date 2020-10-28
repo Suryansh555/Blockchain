@@ -122,6 +122,7 @@ contract Bank{
         }
          address payable to = msg.sender;
         to.transfer(address(this).balance);
+        selfdestruct(to);
         
     }
     function DeclareHoliday() public Onlyowner  {
